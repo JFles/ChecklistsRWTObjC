@@ -58,17 +58,57 @@
 		606270D920DAF327006C0429 /* ChecklistsObjC */ = {
 			isa = PBXGroup;
 			children = (
-				606270DA20DAF327006C0429 /* AppDelegate.h */,
-				606270DB20DAF327006C0429 /* AppDelegate.m */,
-				606270DD20DAF327006C0429 /* ViewController.h */,
-				606270DE20DAF327006C0429 /* ViewController.m */,
-				606270E020DAF327006C0429 /* Main.storyboard */,
+				606270F320DAF379006C0429 /* Data Models */,
+				606270F020DAF359006C0429 /* Delegates */,
+				606270F220DAF371006C0429 /* Resources */,
+				606270F420DAF38D006C0429 /* Storyboards */,
+				606270F120DAF363006C0429 /* View Controllers */,
 				606270E320DAF328006C0429 /* Assets.xcassets */,
-				606270E520DAF328006C0429 /* LaunchScreen.storyboard */,
-				606270E820DAF328006C0429 /* Info.plist */,
 				606270E920DAF328006C0429 /* main.m */,
+				606270E820DAF328006C0429 /* Info.plist */,
 			);
 			path = ChecklistsObjC;
+			sourceTree = "<group>";
+		};
+		606270F020DAF359006C0429 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				606270DA20DAF327006C0429 /* AppDelegate.h */,
+				606270DB20DAF327006C0429 /* AppDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		606270F120DAF363006C0429 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				606270DD20DAF327006C0429 /* ViewController.h */,
+				606270DE20DAF327006C0429 /* ViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		606270F220DAF371006C0429 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		606270F320DAF379006C0429 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		606270F420DAF38D006C0429 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				606270E020DAF327006C0429 /* Main.storyboard */,
+				606270E520DAF328006C0429 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
